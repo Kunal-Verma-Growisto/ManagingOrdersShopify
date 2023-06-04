@@ -1,0 +1,16 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+}
+
+.fixed-width {
+  width: 240px;
+}
+
+.remaining-width {
+  width: 100%;
+}
+
+.Align-Right{
+  text-align: right;
+}

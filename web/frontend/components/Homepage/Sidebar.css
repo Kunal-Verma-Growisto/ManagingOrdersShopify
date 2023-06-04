@@ -1,0 +1,25 @@
+.sidebar {
+    height: 100%;
+    color:#333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .logo {
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+    font-weight: bold;
+  }
+  
+  
+  .bottom-icons {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+  }
+  
