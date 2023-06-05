@@ -2,6 +2,8 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
+// import { AppContext } from "../../context/AppContext";
+// import { useContext } from "react";
 
 import {
   Page,
@@ -28,7 +30,7 @@ export default function Card() {
                   </LegacyCard.Section>
                   <LegacyCard.Section title="Items">
                     <ResourceList
-                      resourceName={{ singular: "product", plural: "products" }}
+                      resourceName={{ singular: "order", plural: "orders" }}
                       items={[
                         {
                           id: "343",
@@ -76,7 +78,10 @@ export default function Card() {
                         );
                       }}
                     />
-                    <Button className="Align-Right" variant="outlined">
+                    <Button
+                      className="Align-Right"
+                      variant="outlined"
+                    >
                       Create Order
                     </Button>
                   </LegacyCard.Section>
